@@ -5,9 +5,10 @@
 	"keywords": [
 		"utility",
 		"links",
-		"ui"
+		"ui",
+		"benplum"
 	],
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"author": {
 		"name": "Ben Plum",
 		"url": "http://www.benplum.com"

@@ -20,6 +20,7 @@
 		}
 	],
 	"docs": "http://www.benplum.com/projects/contextualize/",
+	"demo": "http://www.benplum.com/projects/contextualize/",
 	"download": "https://github.com/benplum/Contextualize",
 	"bugs": "https://github.com/benplum/Contextualize/issues",
 	"dependencies": {

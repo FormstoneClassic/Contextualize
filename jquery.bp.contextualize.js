@@ -1,7 +1,7 @@
 /*
  * Contextualize Plugin - Give your links some context
  * @author Ben Plum
- * @version 0.4.1
+ * @version 0.4.2
  *
  * Copyright © 2012 Ben Plum <mr@benplum.com>
  * Released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
@@ -36,15 +36,17 @@ if (jQuery) (function($) {
 	// Add some context
 	function _init(opts) {
 		options = jQuery.extend(options, opts);
-		var filter = (options.exclude != "") ? ", " + options.exclude : "";
+		var filter = (options.exclude != "") ? ", " + options.exclude : "",
+			$items = $(this).not('[context="on"]' + filter),
+			counter = $items.lenth;
 		
-		var $items = $(this).not('[context="on"]' + filter);
-		var counter = $items.lenth;
 		for (var i = 0, count = $items.length; i < count; i++) {
 			var $anchor = $items.eq(i);
+			
 			if ($anchor.attr("href") !== undefined) {
-				var classes = "";
-				var ext = $anchor.attr("href").substr(-3).toLowerCase();
+				var classes = "",
+					ext = $anchor.attr("href").substr(-3).toLowerCase();
+				
 				if ($.inArray(ext, options.types) > -1) {
 					classes += " " + options.prefix + ext;
 				}

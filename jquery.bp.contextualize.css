@@ -8,7 +8,7 @@
  */
 
 	a[class*=icon_] { margin-right: 3px; }
-	a[class*=icon_]:after { background: url(../images/contextualize-icons.png) no-repeat; content: ' '; display: inline-block; height: 14px; margin-left: 4px; width: 11px; }
+	a[class*=icon_]:after { background: url(contextualize-icons.png) no-repeat; content: ' '; display: inline-block; height: 14px; margin-left: 4px; width: 11px; }
 	a.icon_file:after { background-position: 0 0; }
 	a.icon_zip:after { background-position: -12px 0; }
 	a.icon_pdf:after { background-position: -24px 0; }

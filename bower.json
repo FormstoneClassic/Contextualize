@@ -1,0 +1,29 @@
+{
+	"name": "Contextualize",
+	"version": "0.4.2",
+	"description": "A jQuery plugin for contextualizing in-content links. ",
+	"keywords": [
+		"javascript",
+		"jquery",
+		"utility",
+		"links",
+		"ui",
+		"benplum"
+	],
+	"authors": [
+		"Ben Plum"
+	],
+	"license": "MIT",
+	"homepage": "http://www.benplum.com/projects/contextualize/",
+	"main": [
+		"jquery.bp.contextualize.min.js",
+		"contextualize-icons.png"
+	],
+	"ignore": [
+		"*.json"
+	],
+	"dependencies": {
+		"jquery": ">= 1.7.0"
+	},
+	"devDependencies": {}
+}

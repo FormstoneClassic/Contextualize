@@ -1,3 +1,5 @@
+<h2>Development of this plugin has ended.</h2><br>
+
 Contextualize
 =============
 
